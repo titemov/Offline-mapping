@@ -1,0 +1,24 @@
+{
+  "options": {
+    "paths": {
+      "fonts": "fonts",
+      "styles": "styles"
+    }
+  },
+  "styles": {
+    "osm-liberty": {
+      "style": "osm-liberty/style-local.json",
+      "tilejson": {
+        "type": "raster"
+      }
+    }
+  },
+  "data": {
+	"v3": {
+	  "mbtiles": "russia.mbtiles"
+	  },
+	"worldocean": {
+	  "mbtiles": "water-png.mbtiles"
+	  }
+   }
+}
