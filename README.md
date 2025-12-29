@@ -8,6 +8,15 @@ Offline mapping guide
 3. tilemaker
 4. tileserver-gl
 
+## Step 1
+First of all you need to install Docker. To install it use official Docker website or my [cheatsheet](https://github.com/titemov/Offline-mapping/blob/main/Docker_installation.md)
+After successful installation pull following images:
+- `ghcr.io/systemed/tilemaker:master`
+- `maptiler/tileserver-gl:latest`
+
+To pull Docker image use `docker pull <image_name>`
+> [!NOTE]
+> If you are using linux: `sudo docker pull <image_name>`
 
 # References:
 1. [OpenStreetWiki](openstreetwiki.org)
