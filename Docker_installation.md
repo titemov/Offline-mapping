@@ -8,6 +8,31 @@ Tested on Windows 10
 
 Just download [Docker Desktop](https://www.docker.com/products/docker-desktop/) from official website and install for personal use without any account authorization.
 
-## Linux
+## Linux (Ubuntu/Debian)
 
-Tested on [Complete](https://www.debian.org/CD/) version of Debian 13.2.0
+Tested on [Complete](https://www.debian.org/CD/) version of Debian 13.2.0 "Trixie"
+
+First of all you need to select correct codename of your system on docker packages website:
+- For Ubuntu systems: `https://download.docker.com/linux/ubuntu/dists/`
+- For Debian systems: `https://download.docker.com/linux/debian/dists/`
+
+**Download latest version of every package (there will be multiple link to the same packages, but different version)**
+
+>[!NOTE]
+> 64 bit systems are called `amd64`
+
+Install following dependecies for those packages from `https://packages.ubuntu.com/<codename>/libs/` or `https://packages.debian.org/en/<codename>/allpackages`:
+1. `iptables`
+2. `libc6`
+3. `libip4tc2`
+4. `libip6tc2`
+5. `libmnl0`
+6. `libnetfilter-conntrack3`
+7. `libnfnetlink0`
+8. `libnftnl11`
+9. `libxtables12`
+10. `netbase`
+
+After that just put all of those `.deb` packages in the same place and run following command
+
+`sudo dpkg -i *.deb`
