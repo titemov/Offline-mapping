@@ -10,4 +10,4 @@ Just download [Docker Desktop](https://www.docker.com/products/docker-desktop/) 
 
 ## Linux
 
-Tested on Debian 12.5 
+Tested on [Complete](https://www.debian.org/CD/) version of Debian 13.2.0
