@@ -16,9 +16,6 @@
   "data": {
 	"v3": {
 	  "mbtiles": "russia.mbtiles"
-	  },
-	"worldocean": {
-	  "mbtiles": "water-png.mbtiles"
 	  }
    }
 }
