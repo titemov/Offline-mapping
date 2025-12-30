@@ -13,15 +13,19 @@ Just download [Docker Desktop](https://www.docker.com/products/docker-desktop/) 
 Tested on [Complete](https://www.debian.org/CD/) version of Debian 13.2.0 "Trixie"
 
 First of all you need to select correct codename of your system on docker packages website:
-- For Ubuntu systems: `https://download.docker.com/linux/ubuntu/dists/`
-- For Debian systems: `https://download.docker.com/linux/debian/dists/`
+- [Ubuntu systems](https://download.docker.com/linux/ubuntu/dists/)
+- [Debian systems](https://download.docker.com/linux/debian/dists/)
 
 **Download latest version of every package (there will be multiple link to the same packages, but different version)**
 
 >[!NOTE]
 > 64 bit systems are called `amd64`
 
-Install following dependecies for those packages from `https://packages.ubuntu.com/<codename>/libs/` or `https://packages.debian.org/en/<codename>/allpackages`:
+Visit website below 
+- Ubuntu - `https://packages.ubuntu.com/<codename>/libs/`
+- Debian - `https://packages.debian.org/en/<codename>/allpackages`
+
+To install following dependecies for Docker packages:
 1. `iptables`
 2. `libc6`
 3. `libip4tc2`
@@ -35,4 +39,7 @@ Install following dependecies for those packages from `https://packages.ubuntu.c
 
 After that just put all of those `.deb` packages in the same place and run following command
 
-`sudo dpkg -i *.deb`
+`sudo dpkg --force-depends -i *.deb`
+
+>[!IMPORTANT]
+>Make sure that Docker is running by writing `systemctl status docker.service` from `/opt/` directory
