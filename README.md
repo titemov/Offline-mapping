@@ -60,7 +60,7 @@ Just add `--merge` and the end of the command above. Note: output `.mbtiles` fil
 
 ## Optional step: setting up world ocean
 
-- Install QGIS
+- Install QGIS version 3.8 or higher
 - Download [simplifed water polygons (Mercator)](https://osmdata.openstreetmap.de/data/water-polygons.html)
 - Open QGIS. Select `Toolbox` in `Processing` tab
 - Select `Raster tools` and click `Generating XYZ (mbtiles)`
