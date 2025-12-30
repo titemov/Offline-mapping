@@ -65,7 +65,7 @@ Just add `--merge` and the end of the command above. Note: output `.mbtiles` fil
 - Open QGIS. Select `Toolbox` in `Processing` tab
 - Select `Raster tools` and click `Generating XYZ (mbtiles)`
 - In opened menu select your `.shp` file, min zoom level `0` and max zoom level `10`. Change background color to `Blue` and select `PNG` format.
-- Start processing. You will get `.mbtiles` file ~1GB size.
+- Start processing. You will get `.mbtiles` file ~1GB size. Rename it to `worldocean.mbtiles`
 - Add `"worldocean": { "mbtiles": "water-png.mbtiles" }` to `v3` in `config.json`
 - Add `"worldocean":{ "type": "raster",	"url": "mbtiles://{worldocean}"	}` to `sources` in `style-local.json`
 - Add `{ "id": "ocean-fill", "type": "raster", "source": "worldocean", "source-layer": "water-png", "layout": { "visibility": "visible" } },` to `layers` in `style-local.json`
