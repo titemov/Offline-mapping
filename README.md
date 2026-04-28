@@ -72,7 +72,7 @@ Just add `--merge` and the end of the command above. Note: output `.mbtiles` fil
 - Watch step #3
 
 # References:
-1. [OpenStreetWiki](openstreetwiki.org)
+1. [OpenStreetWiki](https://openstreetwiki.org)
 2. [Tilemaker](https://github.com/systemed/tilemaker) ([Licence](https://github.com/systemed/tilemaker/blob/master/LICENCE.txt))
 3. [tileserver-gl](https://github.com/maptiler/tileserver-gl) ([Licence](https://github.com/maptiler/tileserver-gl/blob/master/LICENSE.md))
 4. [OSM-Liberty](https://github.com/maputnik/osm-liberty) ([Licence](https://github.com/maputnik/osm-liberty/blob/gh-pages/LICENSE.md))
