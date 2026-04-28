@@ -41,7 +41,7 @@ Now it is obligatory needed to convert `.osm.pbf` to `.mbtiles` using `tilemaker
 Just add `--merge` and the end of the command above. Note: output `.mbtiles` file must already exist for a successful merge.
 
 >[!NOTE]
-> It is recommended to download the smallest object possible and then merging it up to something bigger (i.e. from independent regions to country) if you have lower than 16GB of RAM.
+> It is recommended to download the smallest object possible and then merging it up to something bigger (i.e. from different regions to whole country) if you have lower than 16GB of RAM.
 >
 >16GB of RAM will easily process `.osm.pbf` files up to ~1.5GB
 
@@ -56,7 +56,7 @@ Just add `--merge` and the end of the command above. Note: output `.mbtiles` fil
 - Enjoy!
 
 > [!NOTE]
-> If any issuses seen (something not loading on different levels) please clear your browser cache
+> If any issuses seen (something not loading on different levels) please clear your browser cache within last day
 
 ## Optional step: setting up world ocean
 
