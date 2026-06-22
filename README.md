@@ -1,5 +1,5 @@
 # Offline-mapping
-Offline mapping guide
+This guide will provide basic step-by-step instructions how to setup self-hosted world offline maps (Only maps! No satellite imagery). This guide, first of all, written for myself
 
 ![Wien](https://github.com/LazySloth322/Offline-mapping/blob/main/Wien.png)
 
