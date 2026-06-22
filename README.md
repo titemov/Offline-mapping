@@ -1,7 +1,7 @@
 # Offline-mapping
 Offline mapping guide
 
-![Wien](https://github.com/titemov/Offline-mapping/blob/main/Wien.png)
+![Wien](https://github.com/LazySloth322/Offline-mapping/blob/main/Wien.png)
 
 # Guide
 ## Software
@@ -12,7 +12,7 @@ Offline mapping guide
 5. QGIS version 3.8 or higher (optional)
 
 ## Step #1
-First of all you need to install Docker. To install use official [Docker website](https://www.docker.com/get-started/) or my [cheatsheet](https://github.com/titemov/Offline-mapping/blob/main/Docker_installation.md)
+First of all you need to install Docker. To install use official [Docker website](https://www.docker.com/get-started/) or my [cheatsheet](https://github.com/LazySloth322/Offline-mapping/blob/main/Docker_installation.md)
 
 After successful installation pull following images to use them offline:
 - `ghcr.io/systemed/tilemaker:master`
